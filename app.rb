@@ -10,6 +10,18 @@ class GameApp < Sinatra::Base
     def play
       @play
     end
+
+    def rock
+      @rock = rock
+    end
+
+    def paper
+      @paper = paper
+    end
+
+    def scissors
+      @scissors = scissors
+    end
     # Don't worry about this UNTIL you've passed all the tests!
     erb :rps_game
   end
