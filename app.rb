@@ -4,7 +4,7 @@ class GameApp < Sinatra::Base
   get '/rps/:play' do
     # Your app code goes here
     def initialize(play)
-      @play = play
+      @play = "rock, paper, scissors"
     end
 
     def play
